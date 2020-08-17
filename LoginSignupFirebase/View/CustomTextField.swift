@@ -12,9 +12,7 @@ class CustomTextField: UITextField {
     
     init(placeholder: String){
         super.init(frame: .zero)
-        
-        
-       
+
         borderStyle = .none
         textColor = .white
         keyboardAppearance = .dark

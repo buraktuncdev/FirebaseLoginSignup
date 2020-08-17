@@ -18,6 +18,8 @@
 		2EF3E25824EA591B003DBF71 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF3E25724EA591B003DBF71 /* Extensions.swift */; };
 		2EF3E25A24EA5CED003DBF71 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF3E25924EA5CED003DBF71 /* CustomTextField.swift */; };
 		2EF3E25C24EA5DF5003DBF71 /* AuthButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF3E25B24EA5DF5003DBF71 /* AuthButton.swift */; };
+		2EF3E25E24EA6BE9003DBF71 /* DividerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF3E25D24EA6BE9003DBF71 /* DividerView.swift */; };
+		2EF3E26024EA81FA003DBF71 /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF3E25F24EA81FA003DBF71 /* RegistrationController.swift */; };
 		A2C91A0F3BBCDE1805B86448 /* Pods_LoginSignupFirebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7EE74D1DE13B18BCE78B58 /* Pods_LoginSignupFirebase.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +37,8 @@
 		2EF3E25724EA591B003DBF71 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		2EF3E25924EA5CED003DBF71 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		2EF3E25B24EA5DF5003DBF71 /* AuthButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthButton.swift; sourceTree = "<group>"; };
+		2EF3E25D24EA6BE9003DBF71 /* DividerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DividerView.swift; sourceTree = "<group>"; };
+		2EF3E25F24EA81FA003DBF71 /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
 		96546C5264327F0D38F94881 /* Pods-LoginSignupFirebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginSignupFirebase.debug.xcconfig"; path = "Target Support Files/Pods-LoginSignupFirebase/Pods-LoginSignupFirebase.debug.xcconfig"; sourceTree = "<group>"; };
 		F233995E752744F4351F49DC /* Pods-LoginSignupFirebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginSignupFirebase.release.xcconfig"; path = "Target Support Files/Pods-LoginSignupFirebase/Pods-LoginSignupFirebase.release.xcconfig"; sourceTree = "<group>"; };
 		FC7EE74D1DE13B18BCE78B58 /* Pods_LoginSignupFirebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoginSignupFirebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -102,6 +106,7 @@
 			children = (
 				2EF3E25324EA57F5003DBF71 /* HomeController.swift */,
 				2EF3E25524EA57FD003DBF71 /* LoginController.swift */,
+				2EF3E25F24EA81FA003DBF71 /* RegistrationController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			children = (
 				2EF3E25924EA5CED003DBF71 /* CustomTextField.swift */,
 				2EF3E25B24EA5DF5003DBF71 /* AuthButton.swift */,
+				2EF3E25D24EA6BE9003DBF71 /* DividerView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -270,12 +276,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				2EF3E25A24EA5CED003DBF71 /* CustomTextField.swift in Sources */,
+				2EF3E25E24EA6BE9003DBF71 /* DividerView.swift in Sources */,
 				2EF3E25C24EA5DF5003DBF71 /* AuthButton.swift in Sources */,
 				2EF3E25424EA57F5003DBF71 /* HomeController.swift in Sources */,
 				2EF3E25824EA591B003DBF71 /* Extensions.swift in Sources */,
 				2EF3E23B24EA578F003DBF71 /* ViewController.swift in Sources */,
 				2EF3E23724EA578F003DBF71 /* AppDelegate.swift in Sources */,
 				2EF3E23924EA578F003DBF71 /* SceneDelegate.swift in Sources */,
+				2EF3E26024EA81FA003DBF71 /* RegistrationController.swift in Sources */,
 				2EF3E25624EA57FD003DBF71 /* LoginController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
